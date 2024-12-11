@@ -1,8 +1,8 @@
 def ternary_search(arr, left, right, target):
     if right >= left:
         
-        mid1 = left + ((right - left)/3) 
-        mid2 = right - ((right - left)/3) 
+        mid1 = left + (right - left)//3 
+        mid2 = right - (right - left)//3 
         
         
         if arr[mid1] == target:
